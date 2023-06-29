@@ -1,0 +1,11 @@
+[package]
+name = "collect"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+anyhow = "1.0"
+ctrlc = "3.4.0"
+ethrpc = { version = "0.0.7", features = ["http"] }
+fastrand = "2.0.0"
+tokio = { version = "1.29", features = [] }
